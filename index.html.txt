@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuna Dergisi</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #0a3d62;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #3c6382;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      background-color: white;
+      max-width: 1000px;
+      margin: auto;
+    }
+    footer {
+      background-color: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .issue {
+      margin-bottom: 30px;
+    }
+    .issue h3 {
+      color: #0a3d62;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tuna Dergisi</h1>
+    <p>Bilgi, kültür ve edebiyat dergisi</p>
+  </header>
+  <nav>
+    <a href="#hakkimizda">Hakkımızda</a>
+    <a href="#sayilar">Sayılar</a>
+    <a href="#yazarlar">Yazarlar</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+  <section id="hakkimizda">
+    <h2>Hakkımızda</h2>
+    <p>
+      Tuna Dergisi; edebiyat, kültür, sanat ve düşünce alanlarında özgün içerikler sunan aylık bir dergidir.
+      Amacımız; nitelikli yazılarla okuyucularımıza farklı bakış açıları kazandırmak.
+    </p>
+  </section>
+  <section id="sayilar">
+    <h2>Son Sayılar</h2>
+    <div class="issue">
+      <h3>Mayıs 2025</h3>
+      <p>"Yeni Nesil Edebiyat" dosya konulu 42. sayımız yayında!</p>
+    </div>
+    <div class="issue">
+      <h3>Nisan 2025</h3>
+      <p>"Modern Şairler ve Şiir" başlığıyla 41. sayımızı keşfedin.</p>
+    </div>
+  </section>
+  <section id="yazarlar">
+    <h2>Yazarlarımız</h2>
+    <ul>
+      <li>Ahmet Yılmaz – Deneme</li>
+      <li>Zeynep Kaya – Şiir</li>
+      <li>Mehmet Demir – Kitap Eleştirisi</li>
+      <li>Elif Çetin – Röportaj</li>
+    </ul>
+  </section>
+  <section id="iletisim">
+    <h2>İletişim</h2>
+    <p>Bize ulaşmak için: <a href="mailto:iletisim@tunadergisi.com">iletisim@tunadergisi.com</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Tuna Dergisi. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
